@@ -16,7 +16,7 @@
 <!-- * [License](#license) -->
 
 ## Design
-![Example screenshot](./img/design.png)
+![Example screenshot](./design.png)
 <!-- ![Example screenshot](./img/screenshot.png) -->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
