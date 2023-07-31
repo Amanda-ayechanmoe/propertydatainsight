@@ -23,7 +23,7 @@
 ## General Information
 - This project intend to help users to automate the searching of property that they are looking for based on the pre-stroed search criteria and get insight of property data.
 - In this project Streamlit is used for web application to let users to submit their search criteria such as MRT and property type room or whole unit. Once user has submitted search criterias, those are stored in S3 bucket.
-![Example screenshot](./img/Screenshot01.png)
+![Example screenshot](./Screenshot01.png)
 - Airlflow is used to orchestrate the following tasks:
   1. Obtaining the search criteria from S3 bucket.
   2. Calling customized API built with FLASK for web scrapping from https://www.propertyguru.com.sg using selenuim and beautiful soup. 
@@ -48,7 +48,8 @@
 
 
 ## Features
-- User uploads search criteria with web app.
+- User uploads search criteria with web app powered by Streamlit.
+- ETL job on property data.
 - Get insight of property data.
 
 
@@ -59,23 +60,14 @@ What are the project requirements/dependencies? Where are they listed? A require
   1.2 AWS CLI installed and configured
   1.3 Docker and Docker compose
 2. Getting Started
-- Provision EC2 with bootstrap script to host streamlit web app (IAM role) aws cli install/configure
+- Provision EC2 with to host streamlit web app for collecting user's predefined search values.
 - Create s3 bucket with 3 sub folders
 - Get docker file and run container for ariflow and flask
 - Create AWS gule job
+- Create AWS Glue crawler
 - Run query on Athena to get insight
 - Send output result to S3
 - Create connection to S3 from tableau to visualize 
-
-4. AWS Infrastructure costs
-5. S3 structure
-6. Code walkthrough
-- Explain the streamlib web app code 
-- provide airflow dags and explain what it does for each dags
-- Explain flask, python web-crawler code including selenium grip, docker image for selenium girp
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
 
 ## Usage
 How does one go about using it?
@@ -83,14 +75,8 @@ Provide various use cases and code examples here.
 
 `write-your-code-here`
 
-
 ## Project Status
-Project is: _in progress_ 
-
-## Room for Improvement
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+Project is: completed
 
 To do:
 - Send email alert to user when the property that meets criteria is found.
