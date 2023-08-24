@@ -69,7 +69,7 @@ What are the project requirements/dependencies? Where are they listed? A require
 - Send output result to S3
 - Create connection to S3 from tableau to visualize 
 
-## Usage
+## Usage (TBC)
 How does one go about using it?
 Provide various use cases and code examples here.
 
@@ -86,7 +86,7 @@ To do:
 ## Acknowledgements
 Give credit here.
 - This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was based on .....
 - Many thanks to...
 
 
