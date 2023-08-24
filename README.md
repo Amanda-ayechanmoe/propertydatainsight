@@ -1,6 +1,6 @@
 # PropertyDataInsight (ETL job for porperty data)
 > ETL job for property data from https://www.propertyguru.com.sg using python, airflow, AWS S3, AWS Glue, AWS Athena, docker and Tableau.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+<!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [Design](#design)
