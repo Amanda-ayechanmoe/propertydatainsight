@@ -83,13 +83,6 @@ To do:
 - Crawl data from additional property listing websites.
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on .....
-- Many thanks to...
-
-
 ## Contact
 feel free to contact me! 
 - Gmail amandaayechanmoe@gmail.com
